@@ -1,2 +1,2 @@
-# teste2
-# texto testante
+# Repositório central
+# Seja bem-vindo
