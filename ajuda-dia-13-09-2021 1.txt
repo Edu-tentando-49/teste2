@@ -1,0 +1,18 @@
+quando há relação de um para muitos, utiliza-se uma chave estrangeira para referenciar uma entidade.
+[chave estrangeira fica do lado do "muitos"]
+
+enquanto para outro caso(), usa-se da entidade associativa para o
+uso de duas chaves estrangeiras(duas formas de identificar as entidades da relação)
+
+
+ex(2):
+aluno e turma(muitos para muitos)(m:m)
+(matricula-se)
+o aluno tem o próprio identificador(como chave primária)
+a turma tem a própria identificadora(como chave primária)
+
+a entidade associativa(não tem nome)
+(possui uma própria chave primária)
+(possui os identificadores genéricos de turma e aluno)
+
+São bancos de dados não aplicáveis enquanto teste, porém mantêm-se na teórica, para quando
