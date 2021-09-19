@@ -1,0 +1,47 @@
+Criminoso: nome, cpf_criminal, crime;
+[tem]: ocorrido(entidade fraca/chave primária)
+Vitima: nome, cpf_vitima;
+Crime: caso;
+
+
+
+Criminoso: id(pk), data de nascimento, endereço, cpf;
+Vítima: id(pk), data_hora, endereço, codigo_penal,  criminoso, vitima, arma;
+Arma: id(pk), nome, cpf, endereço;
+Crime: id(pk), modelo, marca, tipo, descricao;
+
+;
+
+------------------------------------------------------------------
+ A 	N 	O 	T 	A 	Ç 	Õ 	E 	S 
+------------------------------------------------------------------
+
+quem se liga a quem:
+Entidade(retângulo) -> atributos ou relacionamento;
+Relacionamento(losango) -> Entidade, entidade associativa
+Entidade associativa(retangulo com losango dentro) -> relacionamento(m:n);
+Atributo(chave primária, chave estrangeira) -> Entidade, entidade associativa;
+
+
+Criminoso -> Crime
+1 m
+m 1
+M:N
+(usa de entidade associativa)
+
+Crime -> Arma
+1 m
+m 1
+M:N
+(usa de entidade associativa)
+
+Crime -> Vitima
+1 m
+m 1
+M:N
+(usa de entidade associativa)
+
+Arma -> TipoArma
+1 1
+m 1
+1:m
