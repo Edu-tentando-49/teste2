@@ -68,24 +68,30 @@ ordenada aos estudos, para também viabilizar o gerenciamento de demasiadas info
 o princípio disso para salvar arquivos alterados recentemente, é o meio que permite 
 que ocorra especificadas transações.
 
+3
+(planilhas de excel, cadernos de escola, documentos de arquivo físico são exemplos de banco de dados)
+
 4
 É o sistema que faz a manutenção de banco de dados, seja único ou de múltiplos destes,
 o que facilita quando o cliente quer gerenciar banco(s) de dados, em suas possibilidades variantes de escolher,
 principalmente, entre permanência, histórico, ordenação e modificação.
 
-5
+4
 É o sistema que faz a manutenção de banco de dados, seja único ou de múltiplos destes, 
 o que facilita quando o cliente quer gerenciar banco(s) de dados, 
 em suas possibilidades variantes de escolher, principalmente, 
 entre permanência, histórico, ordenação e modificação.
 
-6
+5
 Plano, em rede, hierárquico e relacionais.
 
-7
+6
 São bancos de dados não aplicáveis enquanto teste, porém mantêm-se na teórica,
 para quando é preciso analisar uma operação,
 a saber se é bem aplicável e/ou funcional.
+
+7
+
 
 8
 

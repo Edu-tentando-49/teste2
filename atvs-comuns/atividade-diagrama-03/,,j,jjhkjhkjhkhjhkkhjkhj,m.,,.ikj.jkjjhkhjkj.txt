@@ -1,0 +1,8 @@
+servicos ->codigo, id_cliente, id_funcionario, id_tipo, data;
+clientes -> codigo, nome, endereco, telefone;
+funcionarios -> codigo, id_categoria, nome, endereco, telefone;
+categorias -> codigo, salario, nome;
+tipo -> codigo, nome;
+
+para atributos que tenha salario, usa-se o tipo de dado Decimal(10,8)
+
